@@ -153,7 +153,7 @@ def save(pv):
     f.close()
     #Transform to word
     doc = aw.Document(pv.name+".txt")
-    doc.save("events.docx")
+    doc.save(pv.name+".docx")
 
 
 while(True):
